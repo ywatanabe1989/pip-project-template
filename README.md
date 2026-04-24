@@ -1,3 +1,22 @@
+# ⚠️ This repository has moved
+
+This template is now maintained inside the **[scitex-template](https://github.com/ywatanabe1989/scitex-template)** monorepo at `templates/pip-project/`.
+
+## Migration
+
+```bash
+pip install scitex-template
+
+# Python
+from scitex_template import clone_template_from_cache
+clone_template_from_cache("pip-project", "./my-new-project")
+```
+
+See: https://github.com/ywatanabe1989/scitex-template/tree/main/templates/pip-project
+
+This repository is archived for history and will no longer receive updates.
+
+---
 <!-- ---
 !-- Timestamp: 2025-08-31 09:13:29
 !-- Author: ywatanabe
